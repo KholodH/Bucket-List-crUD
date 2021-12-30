@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		846A9D19277CFB1A007666EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846A9D18277CFB1A007666EF /* AppDelegate.swift */; };
 		846A9D1B277CFB1A007666EF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846A9D1A277CFB1A007666EF /* SceneDelegate.swift */; };
-		846A9D1D277CFB1A007666EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846A9D1C277CFB1A007666EF /* ViewController.swift */; };
+		846A9D1D277CFB1A007666EF /* BucketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846A9D1C277CFB1A007666EF /* BucketViewController.swift */; };
 		846A9D20277CFB1A007666EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 846A9D1E277CFB1A007666EF /* Main.storyboard */; };
 		846A9D23277CFB1A007666EF /* Bucket_List_crUD.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 846A9D21277CFB1A007666EF /* Bucket_List_crUD.xcdatamodeld */; };
 		846A9D25277CFB1B007666EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 846A9D24277CFB1B007666EF /* Assets.xcassets */; };
@@ -17,6 +17,8 @@
 		846A9D33277CFB1C007666EF /* Bucket_List_crUDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846A9D32277CFB1C007666EF /* Bucket_List_crUDTests.swift */; };
 		846A9D3D277CFB1C007666EF /* Bucket_List_crUDUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846A9D3C277CFB1C007666EF /* Bucket_List_crUDUITests.swift */; };
 		846A9D3F277CFB1C007666EF /* Bucket_List_crUDUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846A9D3E277CFB1C007666EF /* Bucket_List_crUDUITestsLaunchTests.swift */; };
+		846A9D4C277D16A4007666EF /* AddToTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846A9D4B277D16A4007666EF /* AddToTableViewController.swift */; };
+		846A9D4E277D1949007666EF /* BarButtonsDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846A9D4D277D1949007666EF /* BarButtonsDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +42,7 @@
 		846A9D15277CFB1A007666EF /* Bucket List crUD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bucket List crUD.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		846A9D18277CFB1A007666EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		846A9D1A277CFB1A007666EF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		846A9D1C277CFB1A007666EF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		846A9D1C277CFB1A007666EF /* BucketViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketViewController.swift; sourceTree = "<group>"; };
 		846A9D1F277CFB1A007666EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		846A9D22277CFB1A007666EF /* Bucket_List_crUD.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Bucket_List_crUD.xcdatamodel; sourceTree = "<group>"; };
 		846A9D24277CFB1B007666EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +53,8 @@
 		846A9D38277CFB1C007666EF /* Bucket List crUDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bucket List crUDUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		846A9D3C277CFB1C007666EF /* Bucket_List_crUDUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bucket_List_crUDUITests.swift; sourceTree = "<group>"; };
 		846A9D3E277CFB1C007666EF /* Bucket_List_crUDUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bucket_List_crUDUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		846A9D4B277D16A4007666EF /* AddToTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToTableViewController.swift; sourceTree = "<group>"; };
+		846A9D4D277D1949007666EF /* BarButtonsDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarButtonsDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +105,12 @@
 		846A9D17277CFB1A007666EF /* Bucket List crUD */ = {
 			isa = PBXGroup;
 			children = (
+				846A9D4D277D1949007666EF /* BarButtonsDelegate.swift */,
 				846A9D18277CFB1A007666EF /* AppDelegate.swift */,
 				846A9D1A277CFB1A007666EF /* SceneDelegate.swift */,
-				846A9D1C277CFB1A007666EF /* ViewController.swift */,
+				846A9D1C277CFB1A007666EF /* BucketViewController.swift */,
 				846A9D1E277CFB1A007666EF /* Main.storyboard */,
+				846A9D4B277D16A4007666EF /* AddToTableViewController.swift */,
 				846A9D24277CFB1B007666EF /* Assets.xcassets */,
 				846A9D26277CFB1B007666EF /* LaunchScreen.storyboard */,
 				846A9D29277CFB1B007666EF /* Info.plist */,
@@ -261,10 +267,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				846A9D1D277CFB1A007666EF /* ViewController.swift in Sources */,
+				846A9D1D277CFB1A007666EF /* BucketViewController.swift in Sources */,
 				846A9D19277CFB1A007666EF /* AppDelegate.swift in Sources */,
 				846A9D1B277CFB1A007666EF /* SceneDelegate.swift in Sources */,
 				846A9D23277CFB1A007666EF /* Bucket_List_crUD.xcdatamodeld in Sources */,
+				846A9D4C277D16A4007666EF /* AddToTableViewController.swift in Sources */,
+				846A9D4E277D1949007666EF /* BarButtonsDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -449,6 +457,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -477,6 +486,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
